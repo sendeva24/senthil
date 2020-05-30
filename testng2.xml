@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="loan" parallel="tests" thread-count="6">
+
+<listeners>
+
+<listener class-name="loanapplication.javaproject.listeners"></listener>
+
+
+</listeners>
+	<test thread-count="5" name="personalloan">
+	<parameter name="url" value="http://google.com"></parameter>
+		<parameter name="name" value="senthil"></parameter>
+		<classes>
+			<class name="loanapplication.javaproject.testng2" />
+			<class name="loanapplication.javaproject.testng1" />
+
+			<class name="loanapplication.javaproject.testng3" />
+		
+
+
+		</classes>
+	</test>
+</suite> <!-- Suite -->

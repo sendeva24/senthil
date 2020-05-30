@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="loan">
+  <test thread-count="5" name="personalloan">
+    <classes>
+      <class name="loanapplication.javaproject.testng2">
+      <methods>
+      <include name="sen"></include>
+      
+      </methods>
+      </class>
+      <class name="loanapplication.javaproject.testng1"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="homeloan">
+    <classes>
+      <class name="loanapplication.javaproject.testng3">
+      <methods>
+      <exclude name="sen5"></exclude>
+      
+      </methods>
+      
+      </class>
+   
+    </classes>
+  </test> 
+</suite> <!-- Suite -->

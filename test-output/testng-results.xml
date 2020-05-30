@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="6" passed="4" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-26T05:41:20Z" name="Default suite" finished-at="2020-05-26T05:41:21Z" duration-ms="324">
+    <groups>
+    </groups>
+    <test started-at="2020-05-26T05:41:20Z" name="Default test" finished-at="2020-05-26T05:41:21Z" duration-ms="324">
+      <class name="loanapplication.javaproject.testng1">
+        <test-method is-config="true" signature="sen15()[pri:0, instance:loanapplication.javaproject.testng1@5824a83d]" started-at="2020-05-25T22:41:20Z" name="sen15" finished-at="2020-05-25T22:41:20Z" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sen15 -->
+        <test-method signature="sen12(java.lang.String, java.lang.String)[pri:0, instance:loanapplication.javaproject.testng1@5824a83d]" started-at="2020-05-25T22:41:20Z" name="sen12" finished-at="2020-05-25T22:41:20Z" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'url' is required by @Test on method sen12 but has not been marked @Optional or defined
+in C:\Users\sende\AppData\Local\Temp\testng-eclipse--1668323462\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'url' is required by @Test on method sen12 but has not been marked @Optional or defined
+in C:\Users\sende\AppData\Local\Temp\testng-eclipse--1668323462\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sen12 -->
+        <test-method signature="sen2()[pri:0, instance:loanapplication.javaproject.testng1@5824a83d]" started-at="2020-05-25T22:41:20Z" name="sen2" finished-at="2020-05-25T22:41:20Z" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sen2 -->
+        <test-method signature="sen20(java.lang.String, java.lang.String)[pri:0, instance:loanapplication.javaproject.testng1@5824a83d]" started-at="2020-05-25T22:41:20Z" name="sen20" data-provider="sen14" finished-at="2020-05-25T22:41:20Z" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[first]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sen20 -->
+        <test-method signature="sen20(java.lang.String, java.lang.String)[pri:0, instance:loanapplication.javaproject.testng1@5824a83d]" started-at="2020-05-25T22:41:20Z" name="sen20" data-provider="sen14" finished-at="2020-05-25T22:41:21Z" duration-ms="41" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[second]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sen20 -->
+        <test-method signature="sen20(java.lang.String, java.lang.String)[pri:0, instance:loanapplication.javaproject.testng1@5824a83d]" started-at="2020-05-25T22:41:21Z" name="sen20" data-provider="sen14" finished-at="2020-05-25T22:41:21Z" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[three]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sen20 -->
+        <test-method signature="sen3()[pri:0, instance:loanapplication.javaproject.testng1@5824a83d]" started-at="2020-05-25T22:41:21Z" name="sen3" finished-at="2020-05-25T22:41:21Z" depends-on-methods="loanapplication.javaproject.testng1.sen12" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method testng1.sen3()[pri:0, instance:loanapplication.javaproject.testng1@5824a83d] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method testng1.sen3()[pri:0, instance:loanapplication.javaproject.testng1@5824a83d] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sen3 -->
+        <test-method is-config="true" signature="sen16()[pri:0, instance:loanapplication.javaproject.testng1@5824a83d]" started-at="2020-05-25T22:41:21Z" name="sen16" finished-at="2020-05-25T22:41:21Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sen16 -->
+      </class> <!-- loanapplication.javaproject.testng1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

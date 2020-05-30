@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="loanapplication.javaproject.testng1">
+        <methods>
+          <include name="sen15"/>
+          <include name="sen16"/>
+          <include name="sen3"/>
+          <include name="sen12"/>
+        </methods>
+      </class> <!-- loanapplication.javaproject.testng1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
