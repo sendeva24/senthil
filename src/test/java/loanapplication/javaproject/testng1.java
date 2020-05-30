@@ -95,8 +95,17 @@ public class testng1 {
 		System.out.println("test20");
 		System.out.println(usname);
 		System.out.println(pw);
+    }
+			
+	@Test
+	public void sen50() {
+		
+		System.out.println("test50");
+	}
+		
+	
 	}
     
-    }
+    
 	
 
