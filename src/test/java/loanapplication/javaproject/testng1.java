@@ -108,6 +108,18 @@ public class testng1 {
 		
 		System.out.println("test51");
 	}
+	
+	@Test
+	public void sen52() {
+		
+		System.out.println("test51");
+	}
+	
+	@Test
+	public void sen53() {
+		
+		System.out.println("test51");
+	}
 		
 		
 	
