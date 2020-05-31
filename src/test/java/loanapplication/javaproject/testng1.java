@@ -120,6 +120,17 @@ public class testng1 {
 		
 		System.out.println("test51");
 	}
+	
+	@Test
+	public void sen54() {
+		
+		System.out.println("test51");
+	}
+	@Test
+	public void sen55() {
+		
+		System.out.println("test51");
+	}
 		
 		
 	
