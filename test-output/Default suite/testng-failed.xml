@@ -3,14 +3,12 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="loanapplication.javaproject.testng1">
+      <class name="RestAPI.interview1">
         <methods>
-          <include name="sen15"/>
-          <include name="sen16"/>
-          <include name="sen3"/>
-          <include name="sen12"/>
+          <include name="city2"/>
+          <include name="city1"/>
         </methods>
-      </class> <!-- loanapplication.javaproject.testng1 -->
+      </class> <!-- RestAPI.interview1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

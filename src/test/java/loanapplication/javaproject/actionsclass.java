@@ -38,9 +38,10 @@ public class actionsclass {
 		driver.manage().window().maximize();
 		WebElement a =driver.findElement(By.id("nav-link-accountList"));
 		Actions ab =new Actions(driver);
-		ab.moveToElement(a).contextClick().build().perform();
-		WebElement b =driver.findElement(By.id("twotabsearchtextbox"));
-		ab.moveToElement(b).click().keyDown(Keys.SHIFT).sendKeys("hello").doubleClick().build().perform();
+		//ab.moveToElement(a).contextClick(target)
+		//ab.moveToElement(a).contextClick().
+		//WebElement b =driver.findElement(By.id("twotabsearchtextbox"));
+		//ab.moveToElement(b).click().keyDown(Keys.CONTROL+C).sendKeys("hello").doubleClick().build().perform();
 		
 
 		

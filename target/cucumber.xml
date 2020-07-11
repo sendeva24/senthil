@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="2.7">
+    <testcase classname="Application Login" name="Home Page Default login" time="0.956">
+        <system-out><![CDATA[Given user is on landing page...............................................skipped
+When user login into an application with "John" and password "sen1".........skipped
+Then Home page is displayed.................................................skipped
+And Cards are displayed.....................................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home Page Default login 2" time="0.098">
+        <system-out><![CDATA[Given user is on landing page...............................................skipped
+When user signup with details...............................................skipped
+Then Home page is displayed.................................................skipped
+And Cards are displayed.....................................................skipped
+]]></system-out>
+    </testcase>
+</testsuite>
